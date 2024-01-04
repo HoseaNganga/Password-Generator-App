@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page highlights a simple,interactive and dynamic password generator created using HTML,CSS and Javascript">
+    <meta name="author" content="Hosea Nganga">
+    <link rel="stylesheet" href="style.css" type="text/Css">
+    <link rel="shortcut icon" href="IMAGES/icons8-generator-32.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="holdContainer">
+        <div class="passwordHeader">
+            <input type="text" class="outputField" name="field">
+            <button class="copyButton">Copy</button>
+        </div>
+        <form class="body">
+            <div class="box">
+                <label for="passwordLength">Password Length</label>
+                <input type="number" min="2" max="30" value="20"  id="passwordLength">
+            </div>
+            <div class="box">
+                <label for="upper">Include UpperCase Letters</label>
+                <input type="checkbox" id="upper">
+            </div>
+            <div class="box">
+                <label for="lower">Include LowerCase Letters</label>
+                <input type="checkbox" id="lower">
+            </div>
+            <div class="box">
+                <label for="numbers">Include numbers</label>
+                <input type="checkbox" id="numbers">
+            </div>
+            <div class="box">
+                <label for="symbols">Include symbols</label>
+                <input type="checkbox" id="symbols">
+            </div>
+        </form>
+        <button class="generateButton">Generate Password</button>
+    </div>
+
+</body>
+</html>

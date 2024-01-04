@@ -1,0 +1,105 @@
+/* IMPORT GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: linear-gradient(blue,purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.holdContainer{
+    min-width: 400px;
+    height: auto;
+    box-shadow: 0px 5px 5px black;
+    padding: 1rem;
+}
+
+.passwordHeader{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.3rem;
+    flex-wrap: wrap;
+
+}
+
+.outputField{
+    min-width: 100%;
+    padding: 0.5rem 2rem;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    background-color: white;
+}
+
+.copyButton{
+    padding: 0.5rem 1rem;
+    background-color: blue;
+    color: white;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.body{
+    line-height: 2.5rem;
+}
+
+.body div{
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="checkbox"]{
+    cursor: pointer;
+}
+
+input[type="number"]{
+    outline: none;
+    border: none;
+}
+
+.generateButton{
+    width: 100%;
+    font-family: inherit;
+    padding: 0.5rem 2rem;
+    font-size: 1.1rem;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+
+@media screen and (max-width: 442px){
+    body{
+        padding: 1rem;
+    }
+    .holdContainer{
+        min-width: 250px;
+        height: auto;
+    }
+
+    .outputField{
+        padding: 0;
+    }
+}
+
