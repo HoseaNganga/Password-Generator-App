@@ -15,10 +15,10 @@ This project showcases a simple, interactive, and dynamic password generator imp
 1. Screenshot1
 <img src="screenshots/screenshot1.PNG" width="350px">
 
-2. Screenshot1
+2. Screenshot2
 <img src="screenshots/screenshot2.PNG" width="350px">
 
-3. Screenshot1
+3. Screenshot3
 <img src="screenshots/screenshot3.PNG" width="350px">
 
 ## Features
