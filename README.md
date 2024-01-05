@@ -2,6 +2,25 @@
 
 This project showcases a simple, interactive, and dynamic password generator implemented using HTML, CSS, and JavaScript.
 
+## Table of Contents
+- [Screenshots](#screenshots)
+- [Features](#features)
+- [How to Use](#how-to-use)
+- [Development](#development)
+- [Author](#author)
+
+
+## Screenshots
+
+1. Screenshot1
+<img src="screenshots/screenshot1.PNG" width="350px">
+
+2. Screenshot1
+<img src="screenshots/screenshot2.PNG" width="350px">
+
+3. Screenshot1
+<img src="screenshots/screenshot3.PNG" width="350px">
+
 ## Features
 
 - **Password Generation:** Generate strong and secure passwords with various customization options.
